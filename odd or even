@@ -1,0 +1,21 @@
+include<stdio.h>
+int main(){
+	int num;
+	printf("enter an integer:");
+	scanf("%d",&num);
+	if(num%2==0)
+	printf("%d is even.",num);
+	else
+	printf("%d is odd.",num);
+	return 0;
+}
+
+
+
+
+output
+enter an integer:66
+66 is even.
+--------------------------------
+Process exited after 2.997 seconds with return value 0
+Press any key to continue . . .
