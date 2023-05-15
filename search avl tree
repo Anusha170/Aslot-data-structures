@@ -1,0 +1,17 @@
+truct AVLwithparent {
+
+	// Pointer to the left and the
+	// right subtree
+	struct AVLwithparent* left;
+	struct AVLwithparent* right;
+
+	// Stores the data in the node
+	int key;
+
+	// Stores the parent pointer
+	struct AVLwithparent* par;
+
+	// Stores the height of the
+	// current tree
+	int height;
+}
